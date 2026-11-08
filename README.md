@@ -1,8 +1,10 @@
+# Bismillah ir-Rahman ir-Rahim
+
 # Bayyinah
 
 > **Try it now:** [bayyinah.dev](https://bayyinah.dev/). Drag any file into the form and see the integrity report. See the [Hosted API](#hosted-api) section for the JSON endpoint.
 
-**File integrity scanner for detecting hidden, concealed, or adversarial content in digital documents.**
+**File integrity scanner for detecting hidden, concealed, or adversarial content in digital documents -- across 23+ file formats including PDF, Office, email, HTML, images, video, and audio.**
 
 Bayyinah extracts every content layer from a file, visible and invisible, and reports whether what the file *displays* matches what the file *contains*. It is the input-layer application of the [Munafiq Protocol](https://doi.org/10.5281/zenodo.19677111)'s performed-alignment detection. A document that renders cleanly at the surface while carrying concealed payloads, steganographic encoding, embedded prompt injections, or cross-modal anomalies is a document performing alignment. Bayyinah makes the performance visible; the reader performs the recognition.
 
@@ -11,6 +13,19 @@ Bayyinah extracts every content layer from a file, visible and invisible, and re
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.19677111-blue)](https://doi.org/10.5281/zenodo.19677111)
 [![Version](https://img.shields.io/badge/version-1.1.8-green.svg)](https://github.com/BayyinahEnterprise/Bayyinah-Integrity-Scanner/blob/main/CHANGELOG.md)
+
+> **Part of the [Entourage Effect Software Safety Suite (EESS)](https://github.com/bismillahbilalarfeenbismillah/eess-prototype)** -- six instruments that work together for evidence-based software safety. Bayyinah is the input-layer integrity scanner. Findings feed into [HABL](https://github.com/bismillahbilalarfeenbismillah/habl) for evidence correlation; [FATIMA](https://github.com/bismillahbilalarfeenbismillah/FATIMA) seals complement Bayyinah scans by embedding integrity protection into files before they leave your pipeline.
+
+### The EESS Instruments
+
+| Instrument | Role | Repository |
+|-----------|------|------------|
+| **Furqan** | The programming language | [furqan-programming-language](https://github.com/bismillahbilalarfeenbismillah/furqan-programming-language) |
+| **furqan-lint** | Structural honesty linter | [furqan-lint](https://github.com/bismillahbilalarfeenbismillah/furqan-lint) |
+| **FATIMA** | Append-only file protection encoder | [FATIMA](https://github.com/bismillahbilalarfeenbismillah/FATIMA) |
+| **HABL** | Finding protocol and evidence ledger | [habl](https://github.com/bismillahbilalarfeenbismillah/habl) |
+| **Bayyinah** | File integrity scanner (this repo) | [bayyinah-integrity-scanner](https://github.com/bismillahbilalarfeenbismillah/bayyinah-integrity-scanner) |
+| **Shahid** | Weight-holder transparency reports | (in FATIMA repo, PR #7) |
 
 ## Why Bayyinah
 
@@ -422,4 +437,10 @@ Apache 2.0. See [LICENSE](LICENSE) for full text and [CHANGELOG.md](CHANGELOG.md
   only the transition log is per-process. Production runs
   single-worker today. Pinned by
   `tests/test_documented_limits.py::test_recent_transitions_is_in_memory_only`.
+
+---
+
+*Author: Bilal Syed Arfeen. Bayyinah is the file-integrity instrument of the Entourage Effect Software Safety Suite.*
+
+# Bismillah ir-Rahman ir-Rahim
 
